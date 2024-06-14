@@ -15,9 +15,9 @@ def rotate_2d_matrix(matrix):
     """
     size = len(matrix)
 
-    for row in range(size):
-        for col in range(row, size):
-            matrix[col][row], matrix[row][col] = matrix[row][col], matrix[col][row]
+    for i in range(size):
+        for j in range(i, size):
+            matrix[j][i], matrix[i][j] = matrix[i][j], matrix[j][i]
 
-    for row in range(size):
-        matrix[row] = matrix[row][::-1]
+    for i in range(size):
+        matrix[i] = matrix[i][::-1]
