@@ -52,5 +52,5 @@ def is_winner(num_rounds, round_values):
         return "Maria"
     elif ben_score > maria_score:
         return "Ben"
-    else:
-        return None
+
+    return None
