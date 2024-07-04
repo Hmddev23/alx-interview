@@ -25,7 +25,7 @@ def generate_prime_numbers(limit):
     return prime_numbers
 
 
-def is_winner(num_rounds, round_values):
+def isWinner(num_rounds, round_values):
     """
     Determine the winner of the prime game after playing multiple rounds.
     Args:
